@@ -24,6 +24,10 @@ end
 
 def reverse_array(array)
   new = []
-  new << array
+  i = array.length -1 
+  while i < array.length 
+  new << array[i]
+  i = i -1 
+end
 
 end
