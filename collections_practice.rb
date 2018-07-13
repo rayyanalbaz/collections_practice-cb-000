@@ -40,5 +40,6 @@ def find_a(array)
       res << string
     end
     return res
+  end
 
 end
