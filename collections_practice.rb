@@ -7,5 +7,6 @@ def sort_array_desc(array)
     if a < b
       -1
     end
+  end
 
 end
