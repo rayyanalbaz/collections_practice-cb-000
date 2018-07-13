@@ -29,6 +29,6 @@ end
 
 def kesha_maker(array)
     array.each do |kesha|
-      kesha.setbyte(2, "$")
+      kesha.setbyte(2, $)
     end
 end
