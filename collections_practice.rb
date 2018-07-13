@@ -39,7 +39,6 @@ def find_a(array)
     if string.start_with?("a")
       res << string
     end
-
   end
 return res
 end
