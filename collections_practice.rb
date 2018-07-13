@@ -29,6 +29,6 @@ end
 
 def kesha_maker(array)
     array.each do |string|
-      string.sub([aeiou], '$')
+      string.sub(/[aeiou]/, '$')
     end
 end
