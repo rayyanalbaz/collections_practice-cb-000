@@ -23,11 +23,5 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  new = []
-  i = array.size
-  while i < array.length
-  new << array[i]
-  i = i + 1
-end
-return new
+array.reverse
 end
