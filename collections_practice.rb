@@ -30,8 +30,4 @@ def reverse_array(array)
   i = i -1
 end
 return new
-
-
-end
-
 end
