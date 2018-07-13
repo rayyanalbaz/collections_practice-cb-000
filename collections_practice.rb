@@ -34,6 +34,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.delete_if { |e| start_with("a") }
+  res = []
+  array.each do |string|
+    if string.start_with(a)
+      res << string
+    end
+    return res
 
 end
