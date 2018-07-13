@@ -28,7 +28,7 @@ end
 
 
 def kesha_maker(array)
-    array.each do |kesha|
-      kesha.setbyte(2, $)
+    array.each do |string|
+      string.setbyte(2, "$")
     end
 end
